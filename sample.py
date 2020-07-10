@@ -9,7 +9,7 @@ mydb = mysql.connector.connect(
 
 mycursor = mydb.cursor()
 
-mycursor.execute("SELECT * FROM customers")
+mycursor.execute("SELECT * FROM inventory")
 
 myresult = mycursor.fetchall()
 
